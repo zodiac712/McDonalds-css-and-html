@@ -1,0 +1,149 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  display: inline-block;
+  transition: transform 0.125s ease;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-side ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+.right-side a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-side button {
+  background-color: #ffbc0d;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  color: black;
+}
+
+button {
+  background-color: #ffbc0d;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  color: black;
+  transition: all 0.125s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+.right-side ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+
+
+.main-part {
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.grid-container {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+}
+
+.grid-item {
+  transition: all 0.225s ease-in-out;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 300px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.grid-item:hover {
+  background-color: #f0f0f0;
+}
+
+.item-leftSide {
+  margin: 0;
+}
+
+.item-leftSide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.item-rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.item-rightSide h1,
+p {
+  width: 78%;
+}
+
+.nav-section nav {
+  padding: 20px 0;
+
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.nav-section a {
+  color: #292929;
+  text-decoration: none;
+  font-weight: 300;
+}
+.nav-section p {
+  font-weight: 500;
+}
